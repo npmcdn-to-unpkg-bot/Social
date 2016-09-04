@@ -274,7 +274,7 @@ font-size: 14pt;
 	margin:0;
 	}
 .note{
-	height: auto;
+	
 	height: 100%;
 	padding: 0;
 	
@@ -430,7 +430,7 @@ line-height: 25px;
 	margin-right: 5%;
 
 		font-family: sitefont;
-	
+	height: 500px;
 	font-weight: bold;
 }
 .grid-item { 

@@ -29,6 +29,8 @@
 			var screenxs = 960;
 			$(".scale").css("height", $(".personal").height());
 			$(".groups").css("height", $(".secondscale").height());
+			$(".note").css("height", $(".pictures").height());
+			$("postForm").css("height", $(".scale").height());
 
 
 			    if (window.innerWidth <= screenxs) {

@@ -29,6 +29,7 @@ checks();
 		<script type="text/javascript" src="masonry.js"></script>
 		<link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
 		<link href="styles/userpage.css" rel="stylesheet">
+		<script type="text/javascript" src="userpage.js"></script>
 		
 			<script type="text/javascript">
    $(document).ready(function(){
@@ -262,7 +263,7 @@ function set_item(item) {
 								</form>
 				</div>
 				<div class="polaroid col-md-3 col-xs-6">
-						<div class="topPart"><img src="<?php echo $oldprofilepic; ?>"></div>
+						<div class="topPart"><img src="images/noimage.jpg"></div>
 						<div class="bottomPart"><span>This was me</span></div>
 				</div>
 				<div class="pictures col-md-4 col-xs-6">
@@ -322,4 +323,4 @@ function set_item(item) {
 		
 	});
 </script>
-<script type="text/javascript" src="userpage.js"></script>
+
